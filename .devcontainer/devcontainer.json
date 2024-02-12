@@ -1,0 +1,12 @@
+// .devcontainer/devcontainer.json
+{
+  "name": "Go Development",
+  "image": "mcr.microsoft.com/devcontainers/go:latest",
+  "extensions": [
+    "golang.go"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
+
